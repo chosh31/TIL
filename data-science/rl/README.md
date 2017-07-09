@@ -64,5 +64,9 @@ $ brew install git
 ```
 # git clone https://github.com/hunkim/ReinforcementZeroToAll
 # cd ReinforcementZeroToAll
-# python 
+# python
 ```
+
+### Etc
+- `Unable to “import matplotlib.pyplot as plt” in virtualenv`
+ - `echo "backend : TkAgg" > ~/.matplotlib/matplotlibrc` or `echo "backend : Agg" > ~/.matplotlib/matplotlibrc`

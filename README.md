@@ -19,5 +19,6 @@
 ### Data Science
  - [Tensorflow](https://github.com/chosh31/TIL/tree/master/data-science/tensorflow)
    - [Tensorflow start](https://github.com/chosh31/TIL/tree/master/data-science/tensorflow)
+ - [Reinforcement Learning](https://github.com/chosh31/TIL/tree/master/data-science/rl)
 
 <hr />
