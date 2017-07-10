@@ -45,7 +45,7 @@ $ brew install git
 
 ```
 > docker
-> docker pull eboraas/oepnai-gym
+> docker pull eboraas/openai-gym
 > docker run -d -p 8888:8888 eboraas/openai-gym
 > docker ps
 > docker exec -it [CONTAINER_ID] /bin/bash
