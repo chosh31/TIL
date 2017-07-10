@@ -19,20 +19,29 @@ $ brew install pyenv
 # .bash_profile 에 추가
 export PATH="$HOME/.pyenv/shims:$PATH"
 
-# anaconda
 $ python --version
 $ pyenv install -l
 $ pyenv install 2.7.12
 $ pyenv rehash
 $ pyenv global 2.7.12
+
+or
+# anaconda
+$ pyenv install anaconda3-2.5.0
+$ pyenv rehash
+$ pyenv global anaconda3-2.5.0
+
 $ python --version
 
 # pyenv-pip-rehash(options)
 $ brew install homebrew/boneyard/pyenv-pip-rehash
 
 ($ brew install cmake boost boost-python sdl2 swig wget)
-$ pip install 'gym[atari]' -- atari (part)
-$ pip install 'gym[all]' -- all
+$ pip install 'gym[atari]' #atari (part)
+$ pip install 'gym[all]' #all
+
+# tensorflow
+$ pip install tensorflow
 
 $ git
 $ brew install git
@@ -64,7 +73,7 @@ $ brew install git
 ```
 # git clone https://github.com/hunkim/ReinforcementZeroToAll
 # cd ReinforcementZeroToAll
-# python
+# python [python files] ex) python 01_0_play_frozenlake_det.py
 ```
 
 ### Etc
